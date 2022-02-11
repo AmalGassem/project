@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundcolor"
+    android:gravity="top"
+    android:layout_gravity="center"
+    android:padding="15dp"
+    tools:context=".PackageDoctor.DiseaseActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="1dp"
+        android:gravity="top"
+        android:orientation="vertical"
+        android:paddingTop="5dp">
+
+        <TextView
+            style="@style/HeaderText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Disease "
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/diseasename"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ 123456789"
+            android:hint="diseasename"
+            android:inputType="textPersonName"
+            android:maxLength="25"
+            android:paddingStart="15dp"
+            android:textColorHint="@color/white"></EditText>
+
+        <EditText
+            android:id="@+id/healthserviceprovider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+            android:hint="health service provider"
+            android:inputType="textPersonName"
+            android:maxLength="25"
+            android:paddingStart="15dp"
+            android:textColorHint="@color/white"></EditText>
+
+        <EditText
+            android:id="@+id/medicine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="medicine"
+            android:inputType="textPersonName"
+            android:maxLength="25"
+            android:paddingStart="15dp"
+            android:textColorHint="@color/white"></EditText>
+
+
+
+
+        <Button
+            android:id="@+id/btnreg"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Save"
+            android:textAllCaps="false"
+            android:textColor="@color/snow_white" />
+
+        <Button
+            android:id="@+id/btnback"
+            android:layout_width="199dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Back  "
+            android:textAllCaps="false"
+            android:textColor="@color/snow_white" />
+    </LinearLayout>
+</RelativeLayout>

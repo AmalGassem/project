@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundcolor"
+    android:gravity="top"
+    android:layout_gravity="center"
+    android:padding="15dp"
+    tools:context=".PackageAdmin.AdminAddDoctorActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="1dp"
+        android:gravity="top"
+        android:orientation="vertical"
+        android:paddingTop="5dp">
+
+        <TextView
+            style="@style/HeaderText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Doctor "
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/fullname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="fullname"
+            android:inputType="textPersonName"
+            android:paddingStart="15dp"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+            android:maxLength="15"
+            android:textColorHint="@color/white"></EditText>
+
+        <EditText
+            android:id="@+id/certificate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="degree"
+            android:inputType="textPersonName"
+            android:paddingStart="15dp"
+            android:textColorHint="@color/white"></EditText>
+
+        <EditText
+            android:id="@+id/specialization"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="specialization"
+            android:inputType="textPersonName"
+            android:paddingStart="15dp"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+            android:maxLength="15"
+            android:textColorHint="@color/white"></EditText>
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ID"
+            android:inputType="number"
+            android:paddingStart="15dp"
+            android:textColorHint="@color/white"></EditText>
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="password"
+            android:inputType="textPassword"
+            android:paddingStart="15dp"
+            android:maxLength="15"
+            android:textColorHint="@color/white"></EditText>
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="phone"
+            android:inputType="number"
+            android:paddingStart="15dp"
+            android:maxLength="10"
+            android:textColorHint="@color/white"></EditText>
+
+        <EditText
+            android:id="@+id/age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="age"
+            android:inputType="date"
+            android:paddingStart="15dp"
+            android:maxLength="2"
+            android:textColorHint="@color/white"></EditText>
+
+
+        <Spinner
+            android:id="@+id/spinnergender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_dropdown"
+            android:entries="@array/argender" />
+
+        <Button
+            android:id="@+id/btnreg"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Register  "
+            android:textAllCaps="false"
+            android:textColor="@color/snow_white" />
+
+        <Button
+            android:id="@+id/btnback"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Back  "
+            android:textAllCaps="false"
+            android:textColor="@color/snow_white" />
+
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundcolor"
+    android:gravity="top"
+    android:layout_gravity="center"
+    android:padding="1dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/f"
+        style="@style/HeaderText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="125dp"
+        android:text="Your Medical \nRecord"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/snow_white"
+        android:textSize="25pt"
+        app:layout_constraintStart_toStartOf="parent" />
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/f"
+        android:layout_marginTop="75dp"
+        android:text="Begin"
+        android:textSize="24dp" />
+</RelativeLayout>

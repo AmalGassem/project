@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top"
+        android:orientation="vertical"
+        android:padding="5dp">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="fullname"
+            android:textColor="@color/purple_200"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/fullname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/erde"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="phone"
+            android:textColor="@color/purple_200"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="18sp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnAddDisease"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add Disease"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btnViewDisease"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="View Disease"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btnAddReport"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add Report"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btnViewReport"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="View Report"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btnAddmedicalInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add medicalInfo"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btnViewmedicalInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="View medicalInfo"
+                android:textAllCaps="false" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/orange"
+            android:gravity="top"
+            android:orientation="vertical"
+            android:padding="10dp"></LinearLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>

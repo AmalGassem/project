@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top"
+        android:orientation="vertical"
+        android:padding="5dp">
+        <TextView
+            android:id="@+id/medicalfileid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="medicalfileid"
+            android:textColor="@color/purple_200"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/fullname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="fullname"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="title"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/healthserviceprovider"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="healthserviceprovider"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/notices"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="notices"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/reportdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="reportdate"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnDelete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Delete"
+                android:textAllCaps="false" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/orange"
+            android:gravity="top"
+            android:orientation="vertical"
+            android:padding="10dp"></LinearLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>
